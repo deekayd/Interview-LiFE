@@ -227,7 +227,7 @@ class CustomCell: UICollectionViewCell {
     
     fileprivate let carImage: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(named: "bmw")
+        image.image = UIImage(named: "auto")
         image.translatesAutoresizingMaskIntoConstraints = false
         image.contentMode = .scaleAspectFit
         image.clipsToBounds = true
@@ -236,7 +236,7 @@ class CustomCell: UICollectionViewCell {
     
     fileprivate let carName: UILabel = {
         let label = UILabel()
-        label.text = "BMW M2 Blue edition"
+        label.text = "Mercedes AMG "
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 16, weight: .semibold)
         label.textColor = .black.withAlphaComponent(0.85)
